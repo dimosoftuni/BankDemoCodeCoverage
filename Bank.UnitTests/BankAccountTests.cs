@@ -20,7 +20,6 @@ namespace Bank.UnitTests
 
         [Test]
         [Category("High")]
-        [Category("BankAccount")]
         public void Test_CanDepositPositiveAmount()
         {
             // Act
