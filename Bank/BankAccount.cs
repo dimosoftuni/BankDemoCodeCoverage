@@ -1,4 +1,5 @@
-﻿using System;
+// make change
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -43,7 +44,7 @@ namespace Bank
 
         public void Withdraw(decimal amount)
         {
-            if (amount < 1000)
+            if (amount < 10000)
             {
                 amount += (amount * 0.05m);
                 this.Amount -= amount;
