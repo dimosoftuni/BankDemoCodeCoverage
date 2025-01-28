@@ -43,7 +43,7 @@ namespace Bank
 
         public void Withdraw(decimal amount)
         {
-            if (amount < 1000)
+            if (amount < 10010)
             {
                 amount += (amount * 0.05m);
                 this.Amount -= amount;
