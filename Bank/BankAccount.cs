@@ -40,10 +40,10 @@ namespace Bank
             }
             this.Amount += amount;
         }
-
+         // sample comment
         public void Withdraw(decimal amount)
         {
-            if (amount < 10010)
+            if (amount < 1000)
             {
                 amount += (amount * 0.05m);
                 this.Amount -= amount;
